@@ -1,0 +1,15 @@
+Z:\Prj\backend-netcore\bin\Debug\net6.0\backend-netcore.exe
+Z:\Prj\backend-netcore\bin\Debug\net6.0\backend-netcore.deps.json
+Z:\Prj\backend-netcore\bin\Debug\net6.0\backend-netcore.runtimeconfig.json
+Z:\Prj\backend-netcore\bin\Debug\net6.0\backend-netcore.dll
+Z:\Prj\backend-netcore\bin\Debug\net6.0\backend-netcore.pdb
+Z:\Prj\backend-netcore\obj\Debug\net6.0\backend-netcore.csproj.AssemblyReference.cache
+Z:\Prj\backend-netcore\obj\Debug\net6.0\backend-netcore.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Prj\backend-netcore\obj\Debug\net6.0\backend-netcore.AssemblyInfoInputs.cache
+Z:\Prj\backend-netcore\obj\Debug\net6.0\backend-netcore.AssemblyInfo.cs
+Z:\Prj\backend-netcore\obj\Debug\net6.0\backend-netcore.csproj.CoreCompileInputs.cache
+Z:\Prj\backend-netcore\obj\Debug\net6.0\backend-netcore.dll
+Z:\Prj\backend-netcore\obj\Debug\net6.0\refint\backend-netcore.dll
+Z:\Prj\backend-netcore\obj\Debug\net6.0\backend-netcore.pdb
+Z:\Prj\backend-netcore\obj\Debug\net6.0\backend-netcore.genruntimeconfig.cache
+Z:\Prj\backend-netcore\obj\Debug\net6.0\ref\backend-netcore.dll
