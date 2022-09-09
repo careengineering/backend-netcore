@@ -5,49 +5,23 @@ namespace backend_netcore
    class Program
     {
         static void Main(string[] args)
-        {        
-            try
-            {
-            Console.WriteLine("Sayı Giriniz");
-            int sayi = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Girilen sayı:" + sayi);
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine("Hata : " + ex.Message.ToString());
-            }
-            finally
-            {
-                Console.Write("İşlem tamamlandı.");
-            }
+        {
+            int time = DateTime.Now.Hour;
 
+            if (time>=6 && time<11)
+                Console.WriteLine("Günaydın");
 
-            try
-            {
-                //int a = int.Parse(null);     //ArgumentNullException
-                //int a = int.Parse("test");    //FormatException
-                int a = int.Parse("-2000000000000000000"); 
-            }
-            catch(ArgumentNullException ex)
-            {
-                Console.WriteLine("Boş değer girdiniz.");
-                Console.WriteLine(ex);
-            }
-            catch(FormatException ex)
-            {
-                Console.WriteLine("Veri tipi uygun değil  ");
-                Console.WriteLine(ex);
-            }
-            catch (OverflowException ex)
-            {
-                Console.WriteLine("çok küçük yada çok büyük bir değer girdiniz");
-                Console.WriteLine(ex);
-            }
+           else if (time<=18)
+                Console.WriteLine("İyi günler");
 
-            finally
-            {
-                Console.Write("İşlem tamamlandı.");
-            }
+            else
+                Console.WriteLine("İyi geceler");
+
+            string sonuc = time<=18 ? "İyi günler!" : "İyi geceler";
+
+            sonuc = time>=6 && time<11 ? "Günaydın!" : time<=18 ? "İyi günler!" : "İyi geceler";
+
+                Console.WriteLine(sonuc);
         }
     }
 }
