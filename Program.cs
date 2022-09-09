@@ -6,22 +6,47 @@ namespace backend_netcore
     {
         static void Main(string[] args)
         {
-            int time = DateTime.Now.Hour;
+            int month = DateTime.Now.Month;
 
-            if (time>=6 && time<11)
-                Console.WriteLine("Günaydın");
+            switch (month)
+            {
+                case 1: 
+                    Console.WriteLine("Ocak");
+                    break;
 
-           else if (time<=18)
-                Console.WriteLine("İyi günler");
+                case 2: 
+                    Console.WriteLine("Şubat");
+                    break;
 
-            else
-                Console.WriteLine("İyi geceler");
+                 case 9: 
+                    Console.WriteLine("Eylül");
+                    break;                   
 
-            string sonuc = time<=18 ? "İyi günler!" : "İyi geceler";
+                default:
+                    Console.WriteLine("Yanlış Veri Girişi");
+                break;
+            }
 
-            sonuc = time>=6 && time<11 ? "Günaydın!" : time<=18 ? "İyi günler!" : "İyi geceler";
+            switch (month)
+            {
+                case 12:
+                case 1:
+                case 2:
+                    Console.WriteLine("Kış");
+                    break;
 
-                Console.WriteLine(sonuc);
+                case 3:
+                case 4:
+                case 9:
+                    Console.WriteLine("Bahar");
+                    break;
+                default:
+                break;
+            }
+
+
+
+
         }
     }
 }
