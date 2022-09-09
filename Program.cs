@@ -5,9 +5,7 @@ namespace backend_netcore
    class Program
     {
         static void Main(string[] args)
-        {
-/******************** TRY - CATCH ÖRNEK - 1
-          
+        {        
             try
             {
             Console.WriteLine("Sayı Giriniz");
@@ -22,9 +20,8 @@ namespace backend_netcore
             {
                 Console.Write("İşlem tamamlandı.");
             }
-*/
 
-/******************** TRY - CATCH ÖRNEK - 2
+
             try
             {
                 //int a = int.Parse(null);     //ArgumentNullException
@@ -51,11 +48,6 @@ namespace backend_netcore
             {
                 Console.Write("İşlem tamamlandı.");
             }
-*/
-
-
-
-
         }
     }
 }
