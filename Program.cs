@@ -38,6 +38,7 @@ namespace backend_netcore
                 Console.Write("İşlem tamamlandı.");
             }
 
+            //Try-catch finally 11:49
         }
     }
 }
